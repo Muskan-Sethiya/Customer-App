@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add New Customer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Add New Customer</h1>
+    <form id="addCustomerForm">
+        <table style="width: 100%">
+            <tr>
+                <td>
+                    <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+                </td>
+                <td>
+                    <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="street" name="street" placeholder="Street" required>
+                </td>
+                <td>
+                    <input type="text" id="address" name="address" placeholder="Address" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                </td>
+                <td>
+                    <input type="text" id="state" name="state" placeholder="State" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </td>
+                <td>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                </td>
+            </tr>
+        </table>
+        <div style="text-align: right;">
+            <button type="submit" class="submit-btn">Submit</button>
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="add_customer.js"></script>
+</body>
+
+</html>
